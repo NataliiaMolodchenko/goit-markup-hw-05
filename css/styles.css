@@ -525,9 +525,6 @@ ul{
 
 .subscribe-form{
     display: flex;
-}
-
-.subscribe-form-label{
     gap: 24px;
 }
 
