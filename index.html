@@ -500,7 +500,7 @@
 
         <form>
           <div class="pop-up-field">
-            <label for="user-name">Name</label>
+            <label for="user-name" class="name-input">Name</label>
             <div class="pop-up-input">
               <input
                 type="text"
@@ -561,15 +561,15 @@
               value="true"
               name="user-privacy"
             />
-            <label for="user-privacy" class="checkbox-text">
+            <label for="user-privacy" class="checkbox-text"
+              ><span class="checkmark">
+                <svg class="checkmark-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a class="privacy-link">Privacy Policy</a>
             </label>
-            <span class="checkmark">
-              <svg class="checkmark-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-click"></use>
-              </svg>
-            </span>
           </div>
 
           <button type="submit" class="button-pop-up">Send</button>

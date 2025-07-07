@@ -651,6 +651,7 @@ ul{
 .pop-up-close-btn:hover .close-btn,
 .pop-up-close-btn:focus .close-btn{
     fill: #ffffff
+    background-color: #404bbf;
 }
 
 .pop-up-title {
@@ -700,6 +701,7 @@ ul{
 .pop-up-field-input:focus,
 .pop-up-field:focus .pop-up-svg{
     border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .pop-up-svg {
