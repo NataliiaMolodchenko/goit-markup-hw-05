@@ -763,7 +763,7 @@ ul{
     fill: transparent;
 }
 
-.privacy input:checked + .checkmark{
+.privacy-checkbox:checked + .checkmark{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
