@@ -609,7 +609,7 @@ ul{
             0 2px 1px 0 rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 24px 24px 4px;
 }
 
 .pop-up-close-btn{
@@ -748,7 +748,7 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-left: 32px;
+    /* margin-left: 32px; */
 }
 
 .checkmark{
@@ -791,4 +791,5 @@ ul{
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
